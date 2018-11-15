@@ -17,11 +17,11 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 2.2.2'
 
-  s.add_dependency 'activesupport', '~> 5.0'
-  s.add_dependency 'actionpack', '~> 5.0'
-  s.add_dependency 'request_store', '~> 1.0'
-  s.add_dependency 'activemodel', '~> 5.0'
-  s.add_dependency 'activemodel-serializers-xml', '~> 1.0'
+  s.add_dependency 'activesupport'
+  s.add_dependency 'actionpack'
+  s.add_dependency 'request_store'
+  s.add_dependency 'activemodel'
+  s.add_dependency 'activemodel-serializers-xml'
 
   s.add_development_dependency 'ammeter'
   s.add_development_dependency 'rake'
